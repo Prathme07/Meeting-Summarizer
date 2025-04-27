@@ -63,13 +63,13 @@ After setting everything up, start the application by running:
 python app.py
 ```
 Usage Instructions
-- **Open your browser and navigate to http://localhost:5000.
-- **Click on "Start Summarizing" to begin the summarization process.
-- **Sign in with your Google account.
-- **Upload an MP3 file or paste a transcript manually.
-- **Click "Summarize" to generate the meeting summary and action items.
-- **Manage your action items using the following buttons:
-- **Send Email: Draft and send a follow-up email.
-- **Set Reminder: Add the task to your Google Calendar.
-- **Copy: Copy the task details to the clipboard.
-- **Filter action items by assignee name using the input field.
+- Open your browser and navigate to http://localhost:5000.
+- Click on "Start Summarizing" to begin the summarization process.
+- Sign in with your Google account.
+- Upload an MP3 file or paste a transcript manually.
+- Click "Summarize" to generate the meeting summary and action items.
+- Manage your action items using the following buttons:
+- Send Email: Draft and send a follow-up email.
+- Set Reminder: Add the task to your Google Calendar.
+- Copy: Copy the task details to the clipboard.
+- Filter action items by assignee name using the input field.
