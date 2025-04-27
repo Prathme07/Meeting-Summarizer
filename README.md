@@ -22,33 +22,33 @@ The **Meeting Summarizer** is a web application designed to help users effortles
 
 ### 1. Clone the Repository
 Start by cloning the repository to your local machine:
-```bash
+```
 git clone https://github.com/yourusername/meeting-summarizer.git
 cd meeting-summarizer
+
+```
 2. Create a Virtual Environment
 Next, set up a virtual environment for the project:
 
-bash
-Copy
-Edit
+```
 python -m venv venv
 source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+```
 3. Install Dependencies
 Install the required dependencies by running:
 
-bash
-Copy
-Edit
+```
 pip install -r requirements.txt
+```
 4. Configure Environment Variables
 Create a .env file in the root directory of the project and add the following details:
 
-ini
-Copy
-Edit
+```
 JULEP_API_KEY=your_julep_api_key
 GOOGLE_CLIENT_ID=your_google_client_id
 GOOGLE_CLIENT_SECRET=your_google_client_secret
+
+```
 5. Set Up Google OAuth
 Go to the Google Cloud Console, create a new project, and enable both the Google Calendar API and Gmail API.
 
@@ -59,10 +59,9 @@ Download the credentials file and save it as credentials.json in the root direct
 6. Run the Application
 After setting everything up, start the application by running:
 
-bash
-Copy
-Edit
+```
 python app.py
+```
 Usage Instructions
 Open your browser and navigate to http://localhost:5000.
 
